@@ -5,6 +5,8 @@ App Mockup pro předmět WEB
 Aplikace je založena na karetní hře Černý Petr s tématikou Olympských bohů. Původně vyšla v časopise Junior.
 
 ## Pravidla hry
+
+### Co hra obsahuje
 POČET KARET: 29 (14 párů a karta Černý Petr)
 
 POČET HRÁČŮ: 1 až 4
