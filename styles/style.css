@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'roboto-light';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'ArchitectsDaughter-regular';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/ArchitectsDaughter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/Roboto-Medium.ttf");
+}
+
+
+
+/*homepage style*/
+h1 {
+    font-family: 'ArchitectsDaughter-regular';
+    font-size: 34px;
+    margin: 0;
+    padding: 12px 0;
+    text-align: center;
+    background-color: white;
+    color: #BEE5E9;
+    box-shadow: 0 3px 8px #B9B9B9;
+}
+
+h3 {
+    margin: 0;
+}
+
+h3, p {
+    font-family: 'roboto-light';
+    text-align: center;
+}
+
+h2 {
+    font-family: 'roboto-medium';
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2em;
+}
+
+main {
+    padding: 0 10px;
+}
+
+.homepage {
+    background-image: url("../styles/images/background-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.showcards {
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px 70px;
+    background-color: #BEE5EA;
+    box-shadow: 3px 3px 8px #B9B9B9;
+    color: white;
+    text-transform: uppercase;
+    width: 70%;
+    margin: auto;
+    font-family: 'roboto-medium';
+    font-size: 16px;
+    text-decoration: none;
+    margin: 2.5em;
+}
+
+.players {
+    width: 100%;
+    height: 270px;
+    margin: 6em auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player2 {
+    align-self: center;
+}
+
+.players div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    position: relative;
+}
+
+.players img {
+    width: 70px;
+}
+
+.player p {
+    position: absolute;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    left: 35px;
+}
+
+
+/* cards style*/
+
+.cardsmain {
+    background-image: url("../styles/images/background-mobile.jpg");
+    background-position: bottom;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 330px 0 50px 0;
+}
+
+.empty {
+    width: 170px;
+    height: 240px;
+    background-color: #534F4F; opacity: 90%;;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.empty p {
+    margin-top: 5em;
+    color: #534F4F;
+}
+
+.put {
+    background-color: #BEE5E9; opacity: 70%;
+    border: 2px solid #534F4F;
+    margin: 3px;
+}
+
+.put2 {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 3px 8px #B9B9B9;
+    padding: 25px 8px;
+    margin-left: -10px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+
+
+
+/* card library style*/
+
+h4 {
+    font-family: 'ArchitectsDaughter-regular';
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.card {
+    height: 270px;
+    width: 160px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.card p {
+    font-family: 'roboto-light';
+    font-size: 12px;
+    text-align: justify;
+}
+
+.card img {
+    width: 105px;
+}
+
+.card figure {
+    margin: 5px 30px;
+}
+
+.pink {
+    background-color: #EFCAD9;
+}
+
+.yellow {
+    background-color: #F6EE65;
+}
+
+.green {
+    background-color: #C6D470;
+}
+
+.blue {
+    background-color: #BEE5E9;
+}
+
+.black {
+    background-color: #959592;
+}
