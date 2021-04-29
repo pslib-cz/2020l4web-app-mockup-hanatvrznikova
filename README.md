@@ -42,6 +42,8 @@ Pokračuje se dál, až do chvíle, kdy jednomu z hráčů zbyde jediná karta, 
 --> Pokud k sobě karty nepatří, rámeček se zbarví do červené barvy a po odezvě 1s se karty opět vrátí do přehledu karet.
 
 ![image](https://user-images.githubusercontent.com/70745566/116518705-e5fa9280-a8d0-11eb-911a-2f102ebd9d62.png)
+![image](https://user-images.githubusercontent.com/70745566/116518970-37a31d00-a8d1-11eb-9b30-b1a36194c9e0.png)
+
 
 
 - Pokud hráč usoudí, že v přehledu karet identifikoval všechny dvojice, vrátí se pomocí tlačítka ,,hotovo'' zpět na domovskou obrazovku.
