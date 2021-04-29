@@ -37,6 +37,10 @@ Pokračuje se dál, až do chvíle, kdy jednomu z hráčů zbyde jediná karta, 
 - Pokud je hráč zrovna na řadě, klikne na jednoho z dalších hráčů a náhodně mu tak sebere jednu kartu, která se přesune do jeho přeledu karet.
 - Pomocí tlačítka ,,ukázat karty" se hráč dostane do svého přehledu karet.
 
+![image](https://user-images.githubusercontent.com/70745566/116578284-8c668800-a911-11eb-8708-b1e92093f35f.png)
+![image](https://user-images.githubusercontent.com/70745566/116579631-dc921a00-a912-11eb-9389-e591e59ee46f.png)
+
+
 ### Přehled karet cards.html
 - V přehledu karet se zobrazují pouze karty, které danému hráči zbývají (žádné prázdné sloty).
 - Pokud hráč usoudí, že dané dvě karty patří k sobě, přetáhne je postupně do boxu s názvem ,,Vložit dvojici"
