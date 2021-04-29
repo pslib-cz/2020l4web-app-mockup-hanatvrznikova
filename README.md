@@ -60,9 +60,7 @@ Pokračuje se dál, až do chvíle, kdy jednomu z hráčů zbyde jediná karta, 
 - Slouží pouze jako úložiště pro všechny karty ve hře.
 - Každá dvojice karet je označena stejnou třídou, jako např. one + one, two + two, ...
 - Jednotlivé karty lze zkopírovat a nahradit jimi
-markup :  '<div>
-  <p>empty</p>
-  </div>'
+markup : '<div><p>empty</p></div>'
 
 
 
