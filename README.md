@@ -37,7 +37,9 @@ Pokračuje se dál, až do chvíle, kdy jednomu z hráčů zbyde jediná karta, 
 ### Přehled karet cards.html
 - V přehledu karet se zobrazují pouze karty, které danému hráči zbývají (žádné prázdné sloty).
 - Pokud hráč usoudí, že dané dvě karty patří k sobě, přetáhne je postupně do boxu s názvem ,,Vložit dvojici"
-- Zde se zobrazí pouze miniatura každé karty, obsahující pouze její název a obrázek. Miniaturu lze zobrazit pomocí přidání třídy . mini k divu karty.
+- Zde se zobrazí pouze miniatura každé karty, obsahující jen její název a obrázek. Miniaturu lze zobrazit pomocí přidání třídy . mini k divu karty.
+- * V desktopové verzi se v tomto boxu zobrazí celá karta
+
 --> Pokud karty skutečně patří k sobě, rámeček se zbarví do zelené barvy a po odezvě 1s karty zmizí.
 --> Pokud k sobě karty nepatří, rámeček se zbarví do červené barvy a po odezvě 1s se karty opět vrátí do přehledu karet.
 
