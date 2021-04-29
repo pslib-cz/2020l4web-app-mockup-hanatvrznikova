@@ -38,8 +38,8 @@ Pokračuje se dál, až do chvíle, kdy jednomu z hráčů zbyde jediná karta, 
 - V přehledu karet se zobrazují pouze karty, které danému hráči zbývají (žádné prázdné sloty).
 - Pokud hráč usoudí, že dané dvě karty patří k sobě, přetáhne je postupně do boxu s názvem ,,Vložit dvojici"
 - Zde se zobrazí pouze miniatura každé karty, obsahující jen její název a obrázek. Miniaturu lze zobrazit pomocí přidání třídy . mini k divu karty.
- - Pokud karty skutečně patří k sobě, rámeček se zbarví do zelené barvy a po odezvě 1s karty zmizí.
- - Pokud k sobě karty nepatří, rámeček se zbarví do červené barvy a po odezvě 1s se karty opět vrátí do přehledu karet.
+  - Pokud karty skutečně patří k sobě, rámeček se zbarví do zelené barvy a po odezvě 1s karty zmizí.
+  - Pokud k sobě karty nepatří, rámeček se zbarví do červené barvy a po odezvě 1s se karty opět vrátí do přehledu karet.
 
 ![image](https://user-images.githubusercontent.com/70745566/116518705-e5fa9280-a8d0-11eb-911a-2f102ebd9d62.png)
 ![image](https://user-images.githubusercontent.com/70745566/116518970-37a31d00-a8d1-11eb-9b30-b1a36194c9e0.png)
