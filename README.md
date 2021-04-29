@@ -25,9 +25,12 @@ Pokračuje se dál, až do chvíle, kdy jednomu z hráčů zbyde jediná karta, 
 
 
 ## Dokumentace
-### Domovská obrazovka .index.html
-- Hráči se do hry připojí pomocí účtu Google
+### Přihlášení login.html
+- Na této stránce se hráč může přihlásit pomocí Google nebo Facebook účtu.
+- Následně je pak automaticky připojen do hry s dalšími hráči.
 - Jakýkoli jiný počet hráčů než 4 musí být do čtveřice doplněn počítačem (kvůli lepší hratelnosti).
+
+### Domovská obrazovka .index.html
 - Stránka index.html je domovská obrazovka. Hráči zde vidí, kdo je zrovna na řadě.
 - Čílso uvedené u každého z hráčů udává, kolik mu zbývá karet.
 - Pokud je hráč zrovna na řadě, ikonky ostatních hráčů se změní na obrázky s příponou choose ze složky images.
