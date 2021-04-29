@@ -45,8 +45,8 @@ Pokračuje se dál, až do chvíle, kdy jednomu z hráčů zbyde jediná karta, 
 ![image](https://user-images.githubusercontent.com/70745566/116518970-37a31d00-a8d1-11eb-9b30-b1a36194c9e0.png)
 
 
-
 - Pokud hráč usoudí, že v přehledu karet identifikoval všechny dvojice, vrátí se pomocí tlačítka ,,hotovo'' zpět na domovskou obrazovku.
+- *V desktopové verzi se v boxu zobrazí celá karta.*
 
 ### Knihovna karet library.html
 - Tato sránka nijak nesouvisí s průběhem hry.
