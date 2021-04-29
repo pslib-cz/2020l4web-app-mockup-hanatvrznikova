@@ -1,0 +1,513 @@
+@font-face {
+    font-family: 'roboto-light';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'ArchitectsDaughter-regular';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/ArchitectsDaughter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/Roboto-Medium.ttf");
+}
+
+
+/*homepage style*/
+.homepage h1 {
+    font-family: 'ArchitectsDaughter-regular';
+    font-size: 34px;
+    text-align: center;
+    color: #BEE5E9;
+    background-color: white;
+    box-shadow: 0 3px 8px #B9B9B9;
+    padding: 12px 0;
+    margin: 0;
+}
+
+p {
+    font-family: 'roboto-light'; 
+    text-align: center;
+}
+
+.homepage main>p {
+    text-align: left;
+}
+
+h2 {
+    font-family: 'roboto-medium';
+    font-size: 20px;
+    color: white;
+    margin-top: 2em;
+}
+
+h3{
+    font-family: 'roboto-light';
+    text-align: center;
+    margin: 0; 
+}
+
+
+.homepage main { padding: 0 10px; }
+
+body {
+    background-image: url("../styles/images/background-mobile.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.cards {
+    background-repeat: repeat;
+}
+
+.showcards {
+    display: block;
+    font-family: 'roboto-medium';
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    width: 60%;
+    background-color: #BEE5EA;
+    border: 2px solid white;
+    border-radius: 4px;
+    box-shadow: 3px 3px 8px #B9B9B9;
+    padding: 10px 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.players {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 45vh;
+    margin: 6em auto 0 auto;
+}
+
+.player2 { align-self: center; }
+
+.players div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 70px;
+}
+
+.players img { width: 70px; }
+
+.player p {
+    position: absolute;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    left: 35px;
+}
+
+
+
+/* cards style*/
+
+.cards h1 {
+    font-family: 'roboto-medium';
+    text-align: center;
+    color: white
+}
+
+.cards h2 { text-align: center; }
+
+h4 {
+    font-family: 'ArchitectsDaughter-regular';
+    margin: 10px 0 5px 0;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 10px 370px 10px;
+}
+
+.box div {
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.box div>figure {
+    margin: 0;
+}
+
+.box div>figure>img {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box div>p {
+    font-family: 'roboto-light';
+    font-size: 12px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.put {
+    background-color: #BEE5EA;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2em;
+    box-shadow: 0px -3px 10px #534f4f;
+}
+
+.put h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+.putflex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.putflex div {
+    width: 35%;
+    height: 180px;
+    background-color: #DDF2F4;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.putflex div>p {
+    color: #DDF2F4;
+}
+
+.put a {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+/*login*/
+.login {
+    background-image: url(../styles/images/login_bg_mobil.jpg);
+    display: flex;
+}
+
+.login header {
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.login h1 {
+    font-family: 'roboto-medium';
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.login div {
+    width: 70%;
+    text-align: center;
+    border: 1px solid #C2C2C2;
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px #c2c2c2;
+    padding: 8px;
+    margin: 0 auto 20px auto;
+}
+
+.login header>figure {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.login figure>img {
+    display: block;
+    width: 80px;
+    margin: auto;
+}
+
+.login div>i {
+    color: #B2E3E9;
+    margin-right: 10px;
+}
+
+.login div>a {
+    font-family: 'roboto-light';
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+/* card library style*/
+
+#pink {
+    background-color: #EFCAD9;
+}
+
+#yellow {
+    background-color: #F6EE65;
+}
+
+#green {
+    background-color: #C6D470;
+}
+
+#blue {
+    background-color: #BEE5E9;
+}
+
+#black {
+    background-color: #959592;
+}
+
+ /*pro miniatury karet v mobilní verzi
+
+.mini>p {
+    display: none;
+}
+
+.mini>figure {
+    margin: 0;
+}
+
+.mini figure>img {
+    display: block;
+    width: 75%;
+    margin: 0 auto 0 auto;
+}
+*/
+
+/* třída .wrong nebo .right patří k divu .putflex
+.wrong>div {
+    border: 3px solid #F65757;
+}
+
+.right>div {
+    border: 3px solid #A5DF2E;
+}
+*/
+
+
+/*media query*/
+
+@media only screen and (min-width: 720px) {
+    body {
+        background-image: url(../styles/images/background-tablet.jpg);
+    }
+    
+    .homepage main {
+        padding: 0 50px;
+    }
+    
+    h1 {
+        font-size: 46px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 28px;
+        margin: 20px 0 10px 0;
+    }
+    
+    .showcards {
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    .players {
+        width: 90%;
+        height: 55vh;
+    }
+    
+    .players img {
+        width: 110px;
+    }
+    
+    .players p {
+        font-size: 22px;
+        width: 25px;
+        height: 25px;
+        top: -10px;
+    }
+
+    .box {
+        justify-content: space-around;
+        padding: 0px 50px 500px 50px;
+    }
+
+    .box div {
+        width: 40%;
+    }
+
+    .box div>figure>img {
+        width: auto;
+    }
+
+    .box div>p {
+        font-size: 16px;
+        margin: 15px 15px 20px 15px;
+    }
+
+    .putflex div {
+        width: 25%;
+        height: 260px;
+    }
+
+    .login header {
+        width: 45%;
+    }
+    }
+    
+    @media only screen and (min-width: 960px) {
+      
+        body {
+            background-image: url(../styles/images/background-tablet2.jpg);
+        }
+
+        .homepage h1 {
+            font-size: 50px;
+            padding: 25px 0;
+        }
+
+        .homepage main {
+            padding: 0 70px;
+        }
+
+        .players {
+            height: 60vh;
+            margin: 10em auto 0 auto;
+        }
+
+        .players img {
+            width: 150px;
+        }
+
+        h2, .showcards {
+            font-size: 28px;
+        }
+
+        .box div {
+            width: 35%;
+        }
+
+        .putflex div {
+            width: 20%;
+        }
+        
+    }
+
+    @media only screen and (min-width: 1200px) {
+        body {
+            background-image: url(../styles/images/background-pc.jpg);
+        }
+
+        .homepage h1 {
+            font-size: 42px;
+            padding: 15px 0;
+        }
+
+        .homepage a {
+            width: 25%;
+        }
+
+        .cards h1 {
+            margin: 0;
+            padding-top: 30px;
+        }
+
+        .put h2 {
+            margin: 0;
+        }
+
+        .players {
+            height: 50vh;
+            margin: 5em auto 0 auto;
+        }
+
+        .cards main {
+            display: flex;
+        }
+
+        .box {
+            flex-grow: 3;
+            align-self: center;
+            max-width: 1300px;
+            height: 80vh;
+            padding: 0;
+            margin-left: 70px;
+            margin-right: 50px;
+        }
+
+        .box div>figure>img {
+            width: 50%;
+        }
+
+        .put {
+            flex-grow: 1;
+            background-color: transparent;
+            box-shadow: none;
+            position: inherit;
+            width: auto;
+            margin-right: 70px;
+            margin-top: 0;
+        }
+
+        .putflex {
+            flex-direction: column;
+            height: 80vh;
+        }
+
+        .putflex>div, .box>div {
+            width: 280px;
+            height: 360px;
+            margin: 0;
+        }
+
+        .put a {
+            width: 180px;
+            margin: 0 0 0 50%;
+        }
+
+        .login {
+            background-image: url(../styles/images/login_bg_desktop.jpg);
+        }
+
+        .login header {
+            width: 15%;
+        }
+
+
+    }
+
+
+
